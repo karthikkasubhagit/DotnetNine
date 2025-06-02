@@ -1,13 +1,16 @@
 ﻿using Generics;
+using TupleRevision;
 
-namespace ValidateGenrics
+namespace Validate
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Client c = new Client();
-            c.Run();
+            //Client c = new Client();
+            //c.Run();
+            SystemValueTuple s = new();
+            s.Run();
         }
     }
 }
